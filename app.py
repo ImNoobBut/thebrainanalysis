@@ -8,9 +8,7 @@ from keras.models import load_model
 from flask import Flask, request, render_template
 from werkzeug.utils import secure_filename
 
-
 app = Flask(__name__)
-
 
 models =load_model('BrainTumor10Epochs.h5')
 print('Model loaded. Check http://127.0.0.1:5000/')
@@ -53,6 +51,5 @@ def upload():
     return None
 
 
-
 if __name__ == '__main__':
-    app.run(port=int(os.environ.get("PORT", 8080)),host='0.0.0.0',debug=True)
+    app.run()
