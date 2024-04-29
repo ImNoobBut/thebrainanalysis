@@ -22,7 +22,7 @@ To get started, simply visit the website: [Brain Tumor Detector](https://laughin
 
 ## Support
 
-For any inquiries or assistance, please contact our support team at support@braintumordetector.com.
+For any inquiries or assistance, please contact our support team at jiituriaga@usa.edu.ph.
 
 ## License
 
